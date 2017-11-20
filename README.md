@@ -2,6 +2,8 @@
 
 Používejte API [webové platformy](https://www.w3.org/standards/), vzory, polyfilly a lehké knihovny pro znovu použitelný, výkonný a udržitelný kód.
 
+Deset pravidel:
+
 - [1. Stavte na Ecma a W3C standardech](#1-stavte-na-ecma-a-w3c-standardech)
 - [2. Vyhněte se front-endovým frameworkům](#2-vyhněte-se-front-endovým-frameworkům)
 - [3. PRPL vzor](#3-prpl-vzor)
@@ -157,7 +159,7 @@ Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://
 
 ## 6. Inkrementální aktualizace a sdílené závislosti
 
-Kombinace [HTTP/2](https://developers.google.com/web/fundamentals/performance/http2/) + [Server Push](https://developers.google.com/web/fundamentals/performance/http2/#server_push) + standardní formáty modulů, jako jsou [HTML Imports](https://w3c.github.io/webcomponents/spec/imports/) nebo [ES6 Modules](http://exploringjs.com/es6/ch_modules.html) umožňuje inkrementální sdílené závislosti a jejich efektivní doručení ke klientovi přes cache, bez složitých nástrojů a zavaděčů, jako jsou např. Browserify, Rollup, Webpack, atd. Tato kombinace řeší zároveň inkrementální aktualizace výsledné webové stránky nebo aplikace. Pro tuto kombinaci umí Polymer build proces sestavit závislosti, více na stránce [Build for production](https://www.polymer-project.org/2.0/toolbox/build-for-production).
+Využívejte kombinaci [HTTP/2](https://developers.google.com/web/fundamentals/performance/http2/) + [Server Push](https://developers.google.com/web/fundamentals/performance/http2/#server_push) + standardní formáty modulů, jako jsou [HTML Imports](https://w3c.github.io/webcomponents/spec/imports/) nebo [ES6 Modules](http://exploringjs.com/es6/ch_modules.html) umožňující inkrementální sdílené závislosti a jejich efektivní doručení ke klientovi přes cache, bez složitých nástrojů a zavaděčů, jako jsou např. Browserify, Rollup, Webpack, atd. Tato kombinace řeší zároveň inkrementální aktualizace výsledné webové stránky nebo aplikace. Pro tuto kombinaci umí Polymer build proces sestavit závislosti, více na stránce [Build for production](https://www.polymer-project.org/2.0/toolbox/build-for-production).
 
 <details>
 
