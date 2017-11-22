@@ -87,7 +87,7 @@ Lehká [knihovna Polymer v2.0](https://www.polymer-project.org/2.0/docs/devguide
 
 Není třeba SSR (Server Side Rendering) pro generování HTML kódu na straně serveru, z něj přes API získávejte jen JSON data, tím šetříte drahá data na pomalých sítích, výkon i baterii na straně klienta. Vyhněte se pomalým a složitým back-endovým frameworkům generující HTML, např. ASP.NET, Django, Laravel, React, Tomcat, Vue, atd.
 
-Kombinace CSR (Client Side Rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
+Kombinace CSR (Client Side Rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) ([Apollo GraphQL](https://www.apollographql.com)) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
 
 Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [horizontální škálování](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling), [SLA](https://en.wikipedia.org/wiki/Service-level_agreement) a [GDPR](https://www.gdpr.cz) jako "data processor". Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase bude připraven na GDPR, viz [FAQ](https://firebase.google.com/support/faq/#privacy).
 
@@ -216,6 +216,8 @@ Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.c
 
 Rychlé modulární progresivní webové aplikace vytvoříte s architekturou [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) za pomoci custom elementů s Polymer knihovnou, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) (**best-performing apps**).
 
+Stav aplikace můžete řídit pomoci dvou vzorů. [Mediator Pattern nebo Global Mediator Pattern](https://www.youtube.com/watch?v=Wu2GCRkDecI&feature=youtu.be&t=22m40s) pomocí knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#patterns) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#integration-with-other-frameworks).
+
 <details>
   
 ### Úvod do PWA
@@ -260,6 +262,10 @@ Lower user acquisition cost | YES :+1: | YES :+1: (5) | NO :heavy_minus_sign:
 (5) [Progressive Web Apps vs Native: Which Is Better for Your Business?](https://www.technology.org/2017/07/28/progressive-web-apps-vs-native-which-is-better-for-your-business/)
 
 **Nepotřebujete** Apache Cordova, PhoneGap, Crosswalk, React Native, atd.
+
+### Mediator Pattern
+
+- [Thinking in Polymer (The Polymer Summit 2015)](https://www.youtube.com/watch?v=ZDjiUmx51y8&index=3&list=PLNYkxOF6rcICdISJclfQhj2S8QZGjXV8J)
 
 </details>
 
