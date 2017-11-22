@@ -95,6 +95,8 @@ Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na open-source
 
 Jestli potřebujete CMS pro váš front-end, tak si vyberte ze seznamu [HeadlessCMS](https://headlesscms.org).
 
+Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API na tržišti [RapidAPI](https://rapidapi.com). 
+
 [**SEO**](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21).
 
 <details>
@@ -107,6 +109,11 @@ Jestli potřebujete CMS pro váš front-end, tak si vyberte ze seznamu [Headless
 - [Extending Firebase to the Web (Firebase Dev Summit 2017)](https://www.youtube.com/watch?v=puUqJTJVz5A&list=PLl-K7zZEsYLlTSrObc8GxDLarH7tF9WeW&index=7)
 - [Introducing Cloud Firestore (Firebase Dev Summit 2017)](https://www.youtube.com/watch?v=W3xIOQu0h1w&index=12&list=PLl-K7zZEsYLlTSrObc8GxDLarH7tF9WeW)
 - [Write Production Quality Cloud Functions (Firebase Dev Summit 2017)](https://www.youtube.com/watch?v=tResEeK6P5I&list=PLl-K7zZEsYLlTSrObc8GxDLarH7tF9WeW&index=15)
+
+### RapidAPI
+
+- [Mashape’s API Marketplace is now part of RapidAPI](https://medium.com/the-era-of-apis/mashapes-api-marketplace-is-now-part-of-rapidapi-53701442f5e4)
+- [20 Tutorials on How to Create Your Own API](https://medium.com/the-era-of-apis/20-tutorials-on-how-to-create-your-own-api-sorted-by-programming-language-9ad2fa5fc429)
 
 </details>
 
