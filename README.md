@@ -46,6 +46,8 @@ Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery
 
 <details>
 
+### Zdroje
+
 - [Web Components VS Frameworks](https://medium.com/@oneeezy/frameworks-vs-web-components-9a7bd89da9d4)
 - [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 - [You might not need a CSS framework](https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/)
@@ -102,6 +104,8 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 [**SEO**](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21).
 
 <details>
+  
+### Zdroje
 
 - [JAMstack vs Isomorphic Server Side Rendering](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/)
 - [An API-First Development Approach](https://dzone.com/articles/an-api-first-development-approach-1)
@@ -123,7 +127,7 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 Programujte ve standardizovaném jazyce JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)). Jazyk TypeScript či jiné JS preprocessory (CoffeeScript) nejsou třeba, neboť knihovna Polymer rozšiřuje HTML properties na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins).
 
-Využívejte dynamické W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties) a [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) namísto statických CSS preprocessorů, např. SASS, LESS, Stylus. Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů.
+Využívejte dynamické W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties) a [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) namísto statických CSS preprocessorů, např. SASS, LESS, Stylus. Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů. Příkladem je [lit-html](https://github.com/PolymerLabs/lit-html), který bude podporován knihovnou Polymer v3.0.
 
 Používejte W3C [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) API pro spouštění skriptů ve vláknech na pozadí, neovlivňující vlákno uživatelského rozhraní.
 
@@ -183,6 +187,8 @@ Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://
 Využívejte kombinaci [HTTP/2](https://developers.google.com/web/fundamentals/performance/http2/) + [Server Push](https://developers.google.com/web/fundamentals/performance/http2/#server_push) + standardní formáty modulů, jako jsou [HTML Imports](https://w3c.github.io/webcomponents/spec/imports/) nebo [ES6 Modules](http://exploringjs.com/es6/ch_modules.html) umožňující inkrementální sdílené závislosti a jejich efektivní doručení ke klientovi přes cache, bez složitých nástrojů a zavaděčů, jako jsou např. Browserify, Rollup, Webpack, atd. Tato kombinace řeší zároveň inkrementální aktualizace výsledné webové stránky nebo aplikace. Pro tuto kombinaci umí Polymer build proces sestavit závislosti, více na stránce [Build for production](https://www.polymer-project.org/2.0/toolbox/build-for-production).
 
 <details>
+  
+### Polymer v3.0
 
 Knihovna Polymer v3.0 využívá [ES6 moduly via script tag](https://caniuse.com/#feat=es6-module) namísto HTML importů, více informací na stránce [MDN import](https://developer.mozilla.org/cs/docs/Web/JavaScript/Reference/Statements/import). Dále [dynamický import modulů](https://blog.chromium.org/2017/10/chrome-63-beta-dynamic-module-imports_27.html).
 
@@ -273,7 +279,7 @@ Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentati
 
 ## 10. Modulární web pro všechny
 
-Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org). Notifikace z platformy GitHub hlídejte nejlépe pomocí aplikace [Octobox](https://octobox.io).
+Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org), kde je již [**přes 1300 elementů**](https://www.webcomponents.org/elements). Notifikace z platformy GitHub hlídejte nejlépe pomocí aplikace [Octobox](https://octobox.io).
 
 <br>
 
