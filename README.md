@@ -89,12 +89,24 @@ Není třeba SSR (Server Side Rendering) pro generování HTML kódu na straně 
 
 Kombinace CSR (Client Side Rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
 
+Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [horizontální škálování](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling), [SLA](https://en.wikipedia.org/wiki/Service-level_agreement) a [GDPR](https://www.gdpr.cz). Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase je připraven na GDPR, viz [FAQ](https://firebase.google.com/support/faq/#privacy).
+
+Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na open-source řešení pro [noBackend](http://nobackend.org/solutions.html).
+
+Jestli potřebujete CMS pro váš front-end, tak si vyberte ze seznamu [HeadlessCMS](https://headlesscms.org).
+
 [**SEO**](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21).
 
 <details>
 
 - [JAMstack vs Isomorphic Server Side Rendering](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/)
 - [An API-First Development Approach](https://dzone.com/articles/an-api-first-development-approach-1)
+
+### Firebase
+
+- [Extending Firebase to the Web (Firebase Dev Summit 2017)](https://www.youtube.com/watch?v=puUqJTJVz5A&list=PLl-K7zZEsYLlTSrObc8GxDLarH7tF9WeW&index=7)
+- [Introducing Cloud Firestore (Firebase Dev Summit 2017)](https://www.youtube.com/watch?v=W3xIOQu0h1w&index=12&list=PLl-K7zZEsYLlTSrObc8GxDLarH7tF9WeW)
+- [Write Production Quality Cloud Functions (Firebase Dev Summit 2017)](https://www.youtube.com/watch?v=tResEeK6P5I&list=PLl-K7zZEsYLlTSrObc8GxDLarH7tF9WeW&index=15)
 
 </details>
 
