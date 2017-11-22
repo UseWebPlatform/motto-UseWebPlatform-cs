@@ -127,7 +127,9 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 Programujte ve standardizovaném jazyce JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)). Jazyk TypeScript či jiné JS preprocessory (CoffeeScript) nejsou třeba, neboť knihovna Polymer rozšiřuje HTML properties na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins).
 
-Využívejte dynamické W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties) a [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) namísto statických CSS preprocessorů, např. SASS, LESS, Stylus. Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů. Příkladem je [lit-html](https://github.com/PolymerLabs/lit-html), který bude podporován knihovnou Polymer v3.0.
+Využívejte dynamické W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties) a [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) namísto statických CSS preprocessorů, např. SASS, LESS, Stylus.
+
+Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů. Na cestě je [lit-html](https://github.com/PolymerLabs/lit-html), který přináší [několik výhod oproti JSX](https://github.com/PolymerLabs/lit-html#benefits-over-jsx) a bude podporován knihovnou Polymer v3.0.
 
 Používejte W3C [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) API pro spouštění skriptů ve vláknech na pozadí, neovlivňující vlákno uživatelského rozhraní.
 
