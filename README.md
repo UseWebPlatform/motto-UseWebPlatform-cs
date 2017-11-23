@@ -224,7 +224,7 @@ Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.c
 
 ## 8. Progresivní webové aplikace PWA
 
-Rychlé modulární progresivní webové aplikace vytvoříte s architekturou [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) za pomoci custom elementů s Polymer knihovnou, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) (**best-performing apps**).
+Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) za pomoci custom elementů s Polymer knihovnou, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) (**best-performing apps**).
 
 Stav aplikace můžete řídit pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
