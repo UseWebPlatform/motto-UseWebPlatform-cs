@@ -151,7 +151,7 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 Programujte ve standardizovaném jazyce JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)), který umí číst všichni webový vývojáři. Naučte se správně tento jazyk, pomůžou vám odkazy níže.
 
-Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins).
+Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou na front-endu třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins).
 
 Využívejte dynamické W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties) a [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) namísto statických CSS preprocessorů, např. SASS, LESS, Stylus.
 
