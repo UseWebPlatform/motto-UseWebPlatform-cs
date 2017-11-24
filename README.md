@@ -44,6 +44,8 @@ Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný 
 
 Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com).
 
+Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz pěkný článek [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e).
+
 <details>
 
 ### Zdroje
@@ -52,7 +54,6 @@ Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery
 - [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 - [You might not need a CSS framework](https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/)
 - [JavaScript back to basics: You might not need React or Angular 2](https://react-etc.net/entry/javascript-back-to-basics-you-might-not-need-react-or-angular-2)
-- [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e)
 
 </details>
 
@@ -91,11 +92,13 @@ Lehká [knihovna Polymer v2.0](https://www.polymer-project.org/2.0/docs/devguide
 
 Není třeba server-side rendering (SSR) pro generování HTML kódu na straně serveru, z něj přes API získávejte jen JSON data, tím šetříte drahá data na pomalých sítích, výkon i baterii na straně klienta. Vyhněte se pomalým a složitým back-endovým frameworkům generující HTML, např. ASP.NET, Django, Laravel, React, Tomcat, Vue, atd.
 
-Kombinace client-side rendering (CSR) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) ([Apollo GraphQL](https://www.apollographql.com)) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
+Kombinace client-side rendering (CSR) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
 
-Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [horizontální škálování](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling), [SLA](https://en.wikipedia.org/wiki/Service-level_agreement) a [GDPR](https://www.gdpr.cz) jako "data processor". Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase bude připraven na GDPR, viz [FAQ](https://firebase.google.com/support/faq/#privacy).
+Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [horizontální škálování](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling), [SLA](https://en.wikipedia.org/wiki/Service-level_agreement) a [GDPR](https://www.gdpr.cz) jako "data processor".
 
-Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na open-source řešení pro [noBackend](http://nobackend.org/solutions.html).
+Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase bude připraven na GDPR, viz [FAQ](https://firebase.google.com/support/faq/#privacy).
+
+Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na jiná řešení ze seznamu [Awesome Serverless](https://github.com/search?utf8=%E2%9C%93&q=Awesome+Serverless).
 
 Jestli potřebujete CMS pro váš front-end, tak si vyberte ze seznamu [HeadlessCMS](https://headlesscms.org).
 
@@ -109,6 +112,23 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 - [JAMstack vs Isomorphic Server Side Rendering](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/)
 - [An API-First Development Approach](https://dzone.com/articles/an-api-first-development-approach-1)
+- [Postman makes API development faster, easier, and better](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
+
+### JSON API
+
+- [The Benefits of Using JSON API](https://nordicapis.com/the-benefits-of-using-json-api/)
+- [Pragmatic JSON API Design](https://www.youtube.com/watch?v=3jBJOga4e2Y)
+- [You Might Not Need GraphQL](https://blog.runscope.com/posts/you-might-not-need-graphql)
+- [Sending json api object using postman](https://stackoverflow.com/questions/43002142/sending-json-api-object-using-postman)
+
+### GraphQL
+
+- [The GitHub GraphQL API](https://githubengineering.com/the-github-graphql-api/)
+- [GraphQL Server on Cloud Functions for Firebase](https://codeburst.io/graphql-server-on-cloud-functions-for-firebase-ae97441399c0)
+- [Altair GraphQL Client](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja)
+- [Apollo GraphQL](https://www.apollographql.com)
+- [Apollo Client Developer Tools](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm)
+- [The Fullstack Tutorial for GraphQL](https://www.howtographql.com)
 
 ### Firebase
 
@@ -282,6 +302,8 @@ Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentati
 ## 10. Modulární web pro všechny
 
 Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org), kde je již [**přes 1300 elementů**](https://www.webcomponents.org/elements). Notifikace z platformy GitHub hlídejte nejlépe pomocí aplikace [Octobox](https://octobox.io).
+
+Webové komponenty jako W3C standard vylepšují a nahrazují Angular Components, React Components, Vue Components a jiné.
 
 <br>
 
