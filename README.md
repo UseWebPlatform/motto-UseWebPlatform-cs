@@ -1,4 +1,4 @@
-# #UseWebPlatform <sup><sub><a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.0.0...v1.1.0#files_bucket">v1.1.0</a></sub></sup>
+# #UseWebPlatform <sup><sub><a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.1.0...v1.2.0#files_bucket">v1.2.0</a></sub></sup>
 
 Používejte API [webové platformy](https://www.w3.org/standards/), vzory, polyfilly a lehké knihovny pro znovu použitelný, výkonný a udržitelný kód.
 
@@ -149,15 +149,27 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 ## 5. JavaScript, CSS Properties, HTML Templates, Web Workers, WebAssembly
 
+### JavaScript
+
 Programujte ve standardizovaném jazyce JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)), který umí číst všichni webový vývojáři. Naučte se správně tento jazyk, pomůžou vám odkazy níže.
 
-Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou na front-endu třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins).
+Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou na front-endu třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins). Výhodou je, že se nepotřebujete učit další nový jazyk.
 
-Využívejte dynamické W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties) a [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) namísto statických CSS preprocessorů, např. SASS, LESS, Stylus.
+### CSS
+
+Programujte ve standardizovaném jazyce [CSS3](https://www.w3schools.com/css/css3_intro.asp), který umí číst všichni webový vývojáři. Tento jazyk byl rozšířen o dynamické proměnné W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties). Díky polyfillu je možné rozšířit CSS o [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) (metody). Tato dvě rozšíření jazyka CSS a modularita CSS na úrovni custom elementů se Shadow DOM vám umožňuje opustit statické CSS preprocessory, např. SASS, LESS, Stylus. Výhodou je, že se nepotřebujete učit další nový jazyk. Jestli potřebujete rozšířit CSS o nové vlastnosti či funkce, tak použijte postprocessor [PostCSS](https://github.com/postcss/postcss), který nemění jazyk CSS.
+
+Polymer pomocí [paper elementů](https://www.webcomponents.org/collection/PolymerElements/paper-elements) ukazuje, že pro Material Design není třeba rozšiřovat jazyk CSS o preprocessory. Modularita CSS pomocí custom elementů se Shadow DOM vám umožňuje aplikovat jen potřebné styly pro dané zobrazení webové stránky nebo aplikace. Tato modularita z větší části řeší problematiku nepoužívaného (unused) CSS na stránce.
+
+### HTML Templates
 
 Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů. Na cestě je [lit-html](https://github.com/PolymerLabs/lit-html), který přináší [několik výhod oproti JSX](https://github.com/PolymerLabs/lit-html#benefits-over-jsx) a bude podporován knihovnou Polymer v3.0.
 
+### Web Workers
+
 Používejte W3C [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) API pro spouštění skriptů ve vláknech na pozadí, neovlivňující vlákno uživatelského rozhraní.
+
+### WebAssembly
 
 Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly).
 
@@ -209,6 +221,10 @@ Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://
 
 **Nepotřebujete** Dart, TypeScript, Elm, PureScript, CoffeeScript, ClojureScript, atd.
 
+### Web Workers
+
+- [WebWorkers: Code Session - Supercharged](https://www.youtube.com/watch?v=X57mh8tKkgE)
+
 </details>
 
 ## 6. Inkrementální aktualizace a sdílené závislosti
@@ -230,6 +246,8 @@ Při vytváření custom elementů dodržujte checklist [The Gold Standard Check
 
 Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.cz), se kterými pomáhají již vytvořené Polymer komponenty.
 
+Custom elementy se Shadow DOM z větší části řeší problematiku nepoužívaného (unused) CSS a JS, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
+
 <details>
 <summary>Další zajímavé odkazy</summary>
 
@@ -248,6 +266,11 @@ Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.c
 - [Accessible Components: Screen readers -- Polycasts #50](https://www.youtube.com/watch?v=Lktz1KXbTOU&index=13&list=PLNYkxOF6rcIDdS7HWIC_BYRunV6MHs5xo)
 - [Accessible Components: Keyboard access -- Polycasts #49](https://www.youtube.com/watch?v=REVxMvdBYMw&index=14&list=PLNYkxOF6rcIDdS7HWIC_BYRunV6MHs5xo)
 - [A11y with Polymer (The Polymer Summit 2015)](https://www.youtube.com/watch?v=o6yLWihykVA&index=14&list=PLNYkxOF6rcICdISJclfQhj2S8QZGjXV8J)
+
+### Unused CSS
+
+- [Oh No! Our Stylesheet Only Grows and Grows and Grows!](https://css-tricks.com/oh-no-stylesheet-grows-grows-grows-append-stylesheet-problem/)
+- [Monitoring unused CSS by unleashing the raw power of the DevTools Protocol](http://blog.cowchimp.com/monitoring-unused-css-by-unleashing-the-devtools-protocol/)
 
 </details>
 
