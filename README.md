@@ -90,9 +90,9 @@ Lehká [knihovna Polymer v2.0](https://www.polymer-project.org/2.0/docs/devguide
 
 ## 4. Negenerujte HTML na straně serveru
 
-Není třeba server-side rendering (SSR) pro generování HTML kódu na straně serveru, z něj přes API získávejte jen JSON data, tím šetříte drahá data na pomalých sítích, výkon i baterii na straně klienta. Vyhněte se pomalým a složitým back-endovým frameworkům generující HTML, např. ASP.NET, Django, Laravel, React, Tomcat, Vue, atd.
+Není třeba SSR (server-side rendering) pro generování HTML kódu na straně serveru, z něj přes API získávejte jen JSON data, tím šetříte drahá data na pomalých sítích, výkon i baterii na straně klienta. Vyhněte se pomalým a složitým back-endovým frameworkům generující HTML, např. ASP.NET, Django, Laravel, React, Tomcat, Vue, atd.
 
-Kombinace client-side rendering (CSR) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
+Kombinace CSR (client-side rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Příkladem je [JAMstack](https://jamstack.org).
 
 Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [horizontální škálování](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling), [SLA](https://en.wikipedia.org/wiki/Service-level_agreement) a [GDPR](https://www.gdpr.cz) jako "data processor".
 
