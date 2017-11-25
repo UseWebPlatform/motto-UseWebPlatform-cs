@@ -19,7 +19,7 @@ Deset pravidel:
 
 Tvořte lepší web postavený na nových W3C standardech [Custom Elements v1](https://developers.google.com/web/fundamentals/web-components/customelements) a [Shadow DOM v1](https://developers.google.com/web/fundamentals/web-components/shadowdom) umožňující rozšířit W3C [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) jako jediný framework. Komplexní webové aplikace tvořte modulárně z mnoha zapouzdřených custom elementů s vlastním stromem pomocí Shadow DOM. Dodržujte metodu [progressive enhancement](https://www.zdrojak.cz/clanky/graceful-degradation-vs-progressive-enhancement/) za pomoci W3C [polyfillů](https://www.w3.org/2001/tag/doc/polyfills/).
 
-Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný kód (**maintainable code**) a zajišťují lepší dostupnost webových vývojářů.
+Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný kód :sparkles: **maintainable code** :sparkles: a zajišťují lepší dostupnost webových vývojářů. :tada:
 
 <details>
 <summary>Další zajímavé odkazy</summary>
@@ -61,7 +61,7 @@ Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz p
 
 ## 3. PRPL vzor
 
-[PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) je vzor pro strukturování a zobrazování progresivních webových aplikací (PWA), s důrazem na jejich výkon a spouštění.
+:sparkles: [PRPL Pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) :sparkles: je vzor pro strukturování a zobrazování progresivních webových aplikací (PWA), s důrazem na jejich výkon a spouštění.
 
 Jednotlivé custom elementy se stahují při prvním dotazu na server a to najednou (jen jednou) na základě dané trasy (URL), kde jsou potřeba pro render na straně klienta.
 
@@ -99,7 +99,7 @@ Není třeba SSR (server-side rendering) pro generování HTML kódu na straně 
 
 ### CSR
 
-Kombinace CSR (client-side rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Pro tato API je vhodný např. Node.js, Go lang, Python. Příkladem je [JAMstack](https://jamstack.org).
+Kombinace CSR (client-side rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Pro tato API je vhodný např. Node.js, Go lang, Python. Příkladem je :sparkles: [JAMstack](https://jamstack.org) :sparkles:.
 
 ### Back-end
 
@@ -115,7 +115,7 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 ### SEO
 
-[SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21).
+[SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí :sparkles: [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21) :sparkles:.
 
 <details>
 <summary>Další zajímavé odkazy</summary>
@@ -159,19 +159,19 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 ### JavaScript
 
-Programujte ve standardizovaném jazyce JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)), který umí číst všichni webový vývojáři. Naučte se správně tento jazyk, pomůžou vám odkazy níže.
+Programujte ve standardizovaném jazyce Ecma JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)), který umí číst všichni webový vývojáři. Naučte se správně tento jazyk, pomůžou vám odkazy níže.
 
 Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou na front-endu třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins). Výhodou je, že se nepotřebujete učit další nový jazyk.
 
 ### CSS
 
-Kódujte ve standardizovaném jazyce [CSS3](https://www.w3schools.com/css/css3_intro.asp), který umí číst všichni webový vývojáři. Tento jazyk byl rozšířen o dynamické proměnné W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties). Díky polyfillu je možné rozšířit CSS o [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) (metody). Tato dvě rozšíření jazyka CSS a modularita CSS na úrovni custom elementů se Shadow DOM vám umožňuje opustit statické CSS preprocessory, např. SASS, LESS, Stylus. Výhodou je, že se nepotřebujete učit další nový jazyk. Jestli potřebujete rozšířit CSS o nové vlastnosti či funkce, tak použijte postprocessor [PostCSS](https://github.com/postcss/postcss), který nemění jazyk CSS.
+Kódujte ve standardizovaném jazyce W3C [CSS3](https://www.w3schools.com/css/css3_intro.asp), který umí číst všichni webový vývojáři. Tento jazyk byl rozšířen o dynamické proměnné W3C [CSS Properties](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties). Díky polyfillu je možné rozšířit CSS o [CSS Mixins](https://www.polymer-project.org/2.0/docs/devguide/custom-css-properties#use-custom-css-mixins) (metody). Tato dvě rozšíření jazyka CSS a modularita CSS na úrovni custom elementů se Shadow DOM vám umožňuje opustit statické CSS preprocessory, např. SASS, LESS, Stylus. Výhodou je, že se nepotřebujete učit další nový jazyk. Jestli potřebujete rozšířit CSS o nové vlastnosti či funkce, tak použijte postprocessor [PostCSS](https://github.com/postcss/postcss), který nemění jazyk CSS.
 
 Polymer pomocí [paper elementů](https://www.webcomponents.org/collection/PolymerElements/paper-elements) ukazuje, že pro Material Design není třeba rozšiřovat jazyk CSS o preprocessory. Modularita CSS pomocí custom elementů se Shadow DOM vám umožňuje aplikovat jen potřebné styly pro dané zobrazení webové stránky nebo aplikace. Tato modularita z větší části řeší problematiku nepoužívaného (unused) CSS na stránce.
 
 ### HTML Templates
 
-Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů. Na cestě je [lit-html](https://github.com/PolymerLabs/lit-html), který přináší [několik výhod oproti JSX](https://github.com/PolymerLabs/lit-html#benefits-over-jsx) a bude podporován knihovnou Polymer v3.0.
+Využívejte vlastnosti W3C [HTML Templates](https://www.polymer-project.org/2.0/docs/devguide/dom-template) namísto HTML preprocessorů (Handlebars, Nunjucks, Pug) nebo JS templatů. Na cestě je :sparkles: [lit-html](https://github.com/PolymerLabs/lit-html) :sparkles:, který přináší [několik výhod oproti JSX](https://github.com/PolymerLabs/lit-html#benefits-over-jsx) a bude podporován knihovnou Polymer v3.0.
 
 ### Web Workers
 
@@ -256,7 +256,7 @@ Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.c
 
 Custom elementy se Shadow DOM z větší části řeší problematiku nepoužívaného (unused) CSS a JS, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
 
-Například CSS framework Bootstrap je velký problém na webu. Generuje velké množství unused CSS kódu na dané stránce. Je to anti-pattern pro mobilní PWA aplikace.
+Například CSS frameworky (Bootstrap, Foundation) jsou velký problém :shit: na webu. Generují velké množství unused CSS kódu na dané stránce. To je anti-pattern pro mobilní PWA aplikace.
 
 <details>
 <summary>Další zajímavé odkazy</summary>
@@ -286,12 +286,12 @@ Například CSS framework Bootstrap je velký problém na webu. Generuje velké 
 
 ## 8. Progresivní webové aplikace PWA
 
-Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) za pomoci custom elementů s Polymer knihovnou, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) (**best-performing apps**).
+Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou :sparkles: [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) :sparkles: za pomoci custom elementů s Polymer knihovnou, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) :sparkles: **best-performing apps** :sparkles:.
 
 Stav aplikace můžete řídit pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další zajímavé odkazy :eyes:</summary>
 
 ### Úvod do PWA
 
@@ -340,7 +340,7 @@ Lower user acquisition cost | YES :+1: | YES :+1: (5) | NO :heavy_minus_sign:
 
 ## 9. Neopakujte se
 
-Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentation) a [testy pomocí Web Component Tester](https://www.polymer-project.org/2.0/docs/tools/tests) pro každý znovu použitelný custom element (**reusable code**), který žije ve vlastním git repozitáři s landing a demo stránkou. To vám umožňuje tvořit stabilní webové komponenty a neopakovat se (**DRY**: Don't repeat yourself).
+Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentation) a [testy pomocí Web Component Tester](https://www.polymer-project.org/2.0/docs/tools/tests) pro každý znovu použitelný custom element :sparkles: **reusable code** :sparkles:, který žije ve vlastním git repozitáři s landing a demo stránkou. To vám umožňuje tvořit stabilní webové komponenty a neopakovat se (**DRY**: Don't repeat yourself).
 
 ## 10. Modulární web pro všechny
 
