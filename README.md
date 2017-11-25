@@ -248,6 +248,10 @@ Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.c
 
 Custom elementy se Shadow DOM z větší části řeší problematiku nepoužívaného (unused) CSS a JS, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
 
+Například CSS framework Bootstrap je velký problém na webu. Generuje velké množství unused CSS kódu na dané stránce. Je to anti-pattern pro mobilní PWA aplikace. 
+
+Vice info zde
+
 <details>
 <summary>Další zajímavé odkazy</summary>
 
