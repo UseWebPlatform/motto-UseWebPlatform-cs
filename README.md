@@ -340,7 +340,7 @@ Lower user acquisition cost | YES :+1: | YES :+1: (5) | NO :heavy_minus_sign:
 
 ## 9. Neopakujte se
 
-Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentation) a [testy pomocí Web Component Tester](https://www.polymer-project.org/2.0/docs/tools/tests) pro každý znovu použitelný custom element :sparkles: **reusable code** :sparkles:, který žije ve vlastním git repozitáři s landing a demo stránkou. To vám umožňuje tvořit stabilní webové komponenty a neopakovat se (**DRY**: Don't repeat yourself).
+Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentation) a [testy pomocí Web Component Tester](https://www.polymer-project.org/2.0/docs/tools/tests) pro každý znovu použitelný custom element, který žije ve vlastním git repozitáři s landing a demo stránkou :sparkles: **reusable code** :sparkles:. To vám umožňuje tvořit stabilní webové komponenty a neopakovat se (**DRY**: Don't repeat yourself).
 
 ## 10. Modulární web pro všechny
 
