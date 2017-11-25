@@ -338,9 +338,11 @@ Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentati
 
 ## 10. Modulární web pro všechny
 
-Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org), kde je již [**přes 1300 elementů**](https://www.webcomponents.org/elements). Notifikace z platformy GitHub hlídejte nejlépe pomocí aplikace [Octobox](https://octobox.io).
+Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org), kde je již [**přes 1300 elementů**](https://www.webcomponents.org/elements). :tada:
 
-Webové komponenty jako W3C standard vylepšují a nahrazují Angular Components, React Components, Vue Components a jiné, viz projekt [Custom Elements Everywhere](https://custom-elements-everywhere.com).
+Webové komponenty jako W3C standard vylepšují a nahrazují Angular Components, Vue Components a jiné, viz projekt [Custom Elements Everywhere](https://custom-elements-everywhere.com).
+
+Notifikace z platformy GitHub hlídejte nejlépe pomocí aplikace [Octobox](https://octobox.io). S platformou GitHub vás seznámí [GitHub Guides](https://guides.github.com) a [tryGit](https://try.github.io).
 
 <br>
 
