@@ -99,7 +99,7 @@ Není třeba SSR (server-side rendering) pro generování HTML kódu na straně 
 
 ### CSR
 
-Kombinace CSR (client-side rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Pro tyto API je vhodné použít např. Node.js, Go lang, Python. Příkladem je :sparkles: [JAMstack](https://jamstack.org) :sparkles:.
+Kombinace CSR (client-side rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Pro tyto API je vhodné použít např. Node.js, Go lang nebo Python. Příkladem je :sparkles: [JAMstack](https://jamstack.org) :sparkles:.
 
 ### Back-end
 
