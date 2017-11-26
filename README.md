@@ -22,7 +22,7 @@ Tvořte lepší web postavený na nových W3C standardech [Custom Elements v1](h
 Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný kód :sparkles: **maintainable code** :sparkles: a zajišťují lepší dostupnost webových vývojářů. :tada:
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další užitečné zdroje</summary>
 
 ### Web Components
 
@@ -48,7 +48,7 @@ Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery
 Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz pěkný článek [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e).
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další užitečné zdroje</summary>
 
 ### Proč nepotřebujete frameworky
 
@@ -118,7 +118,7 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí :sparkles: [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21) :sparkles:.
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další užitečné zdroje</summary>
 
 ### Proč CSR
 
@@ -182,7 +182,7 @@ Používejte W3C [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/
 Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly).
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další užitečné zdroje</summary>
 
 ### CSS Variables, CSS Mixins
 
@@ -240,7 +240,7 @@ Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://
 Využívejte kombinaci [HTTP/2](https://developers.google.com/web/fundamentals/performance/http2/) + [Server Push](https://developers.google.com/web/fundamentals/performance/http2/#server_push) + standardní formáty modulů, jako jsou [HTML Imports](https://w3c.github.io/webcomponents/spec/imports/) nebo [ES6 Modules](http://exploringjs.com/es6/ch_modules.html) umožňující inkrementální sdílené závislosti a jejich efektivní doručení ke klientovi přes cache, bez složitých nástrojů a zavaděčů, jako jsou např. Browserify, Rollup, Webpack, atd. Tato kombinace řeší zároveň inkrementální aktualizace výsledné webové stránky nebo aplikace. Pro tuto kombinaci umí Polymer build proces sestavit závislosti, více na stránce [Build for production](https://www.polymer-project.org/2.0/toolbox/build-for-production).
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další užitečné zdroje</summary>
 
 ### Polymer v3.0
 
@@ -259,7 +259,7 @@ Custom elementy se Shadow DOM z větší části řeší problematiku nepoužív
 Například CSS frameworky (Bootstrap, Foundation) jsou velký problém :shit: na webu. Generují velké množství unused CSS kódu na dané stránce. To je anti-pattern pro mobilní PWA aplikace.
 
 <details>
-<summary>Další zajímavé odkazy</summary>
+<summary>Další užitečné zdroje</summary>
 
 ### Custom elementy
   
@@ -291,7 +291,7 @@ Rychlé modulární [progresivní webové aplikace](https://developers.google.co
 Stav aplikace můžete řídit pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
 <details>
-<summary>Další zajímavé odkazy :eyes:</summary>
+<summary>Další užitečné zdroje :eyes:</summary>
 
 ### Úvod do PWA
 
