@@ -290,6 +290,8 @@ Rychlé modulární [progresivní webové aplikace](https://developers.google.co
 
 Stav aplikace můžete řídit pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
+PWA aplikace v produkci ukazují, že mají význam, viz statistiky [PWA Stats](https://www.pwastats.com). :+1:
+
 <details>
 <summary>Další užitečné zdroje :eyes:</summary>
 
