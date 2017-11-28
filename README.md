@@ -1,4 +1,4 @@
-# #UseWebPlatform <sup><sub><a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.2.0...v1.3.0#files_bucket">v1.3.0</a> - 2017-11-28</sub></sup>
+# #UseWebPlatform <sup><sub>Czech <a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.2.0...v1.3.0#files_bucket">v1.3.0</a> - 2017-11-28</sub></sup>
 
 Používejte API [webové platformy](https://www.w3.org/standards/), vzory, polyfilly a lehké knihovny pro znovu použitelný, výkonný a udržitelný kód.
 
