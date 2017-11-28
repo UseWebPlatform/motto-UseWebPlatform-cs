@@ -161,7 +161,9 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 Programujte ve standardizovaném jazyce Ecma JavaScript ES6 ([ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript)), který umí číst všichni webový vývojáři. Naučte se správně tento jazyk, pomůžou vám odkazy níže.
 
-Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou na front-endu třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins). Výhodou je, že se nepotřebujete učit další nový jazyk.
+Jazyk TypeScript či jiné JS preprocessory (Dart, CoffeeScript) nejsou na front-endu třeba, neboť knihovna Polymer rozšiřuje [HTML Properties](https://www.w3schools.com/jsref/dom_obj_all.asp) na elementu o statické typy, private a protected typy, výchozí hodnotu, read-only stav a jiné, více na stránce [Declare Properties](https://www.polymer-project.org/2.0/docs/devguide/properties). S těmito properties pracuje plugin [Polymer IDE](https://github.com/StartPolymer/awesome-polymer#editor-plugins). Výhodou je, že se nepotřebujete učit další nový jazyk. 
+
+Jestli potřebujete nasadit **TypeScript**, třeba pro komplexní custom elementy, tak projekt Polymer udržuje dekoratéry pro tento jazyk, uloženy jsou v gitu [polymer-decorators](https://github.com/Polymer/polymer-decorators).
 
 ### CSS
 
