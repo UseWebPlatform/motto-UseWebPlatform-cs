@@ -314,6 +314,7 @@ PWA aplikace v produkci ukazují, že mají význam, viz statistiky [PWA Stats](
 - [PWAs with Polymer: a checklist](https://meowni.ca/posts/polymer-pwa-checklist/)
 - [Web Push Notifications: Permission UX](https://developers.google.com/web/fundamentals/push-notifications/permission-ux)
 - [Trusted Web activities are a new way to integrate PWA with Android app](https://developers.google.com/web/updates/2017/10/using-twa)
+- [Safari service workers and other PWA good news stories](https://mobiforge.com/news-comment/safari-service-workers-and-other-pwa-good-news-stories)
 
 ### Porovnání PWA s nativní aplikací pro Android či iOS
 
