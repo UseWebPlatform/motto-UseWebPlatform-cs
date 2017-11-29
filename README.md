@@ -305,21 +305,24 @@ Webová platforma již nyní má několik rozhraní, které umožňují komuniko
 
 - [Introduction to Progressive Web App Architectures](https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures-slides)
 - [Intro to Progressive Web Apps - Free course](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
-- [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
-- [The App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
 - [Support native integration](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#support_native_integration)
-- [Progressive Web Apps (PWA) and Windows 10](https://forum.kirupa.com/t/progressive-web-apps-pwa-and-windows-10/637192)
-- [How to Save PWA to iOS Homescreen](https://vimeo.com/236430523)
 - [WHY You Should Build A Progressive Web App NOW](https://www.youtube.com/watch?v=0LOk_OgUWGM)
 - [Twitter Lite PWA Significantly Increases Engagement and Reduces Data Usage](https://developers.google.com/web/showcase/2017/twitter)
-- [Integrating with Browsers and OS - Android Trusted Web Activity (Chrome Dev Summit 2017)](https://www.youtube.com/watch?v=_sLa0qhuqcA)
 - [Kickstarting Your Journey to Progressive Web Apps (Chrome Dev Summit 2017)](https://www.youtube.com/watch?v=goafiwzhKMI)
 - [Polymer 2.0 — Building Progressive Web Apps with Enhanced Web Platform Features](https://medium.com/platform-engineer/polymer-2-0-building-progressive-web-apps-with-enhanced-web-platform-features-933251824f13)
 - [PWAs with Polymer: a checklist](https://meowni.ca/posts/polymer-pwa-checklist/)
 - [Web Push Notifications: Permission UX](https://developers.google.com/web/fundamentals/push-notifications/permission-ux)
+- [Integrating with Browsers and OS - Android Trusted Web Activity (Chrome Dev Summit 2017)](https://www.youtube.com/watch?v=_sLa0qhuqcA)
 - [Trusted Web activities are a new way to integrate PWA with Android app](https://developers.google.com/web/updates/2017/10/using-twa)
-- [Safari service workers and other PWA good news stories](https://mobiforge.com/news-comment/safari-service-workers-and-other-pwa-good-news-stories)
 - [Awesome PWA](https://github.com/hemanth/awesome-pwa) - Useful resources for creating Progressive Web Apps.
+
+### Podpora PWA ze strany prohlížečů a OS
+
+- [Chrome / Chromium: The New and Improved Add to Home screen](https://developers.google.com/web/updates/2017/02/improved-add-to-home-screen)
+- [Add Progressive Web Apps to your Home screen in Firefox for Android](https://hacks.mozilla.org/2017/10/progressive-web-apps-firefox-android/)
+- [How to Save PWA to iOS Homescreen](https://vimeo.com/236430523)
+- [Safari service workers and other PWA good news stories](https://mobiforge.com/news-comment/safari-service-workers-and-other-pwa-good-news-stories)
+- [Progressive Web Apps (PWA) and Windows 10](https://forum.kirupa.com/t/progressive-web-apps-pwa-and-windows-10/637192)
 
 ### Porovnání PWA s nativní aplikací pro Android či iOS
 
