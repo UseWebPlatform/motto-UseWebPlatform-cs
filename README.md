@@ -294,6 +294,8 @@ Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://githu
 
 PWA aplikace v produkci ukazují, že mají význam, viz statistiky [PWA Stats](https://www.pwastats.com). :+1:
 
+Webová platforma již nyní má několik rozhraní, které umožňují komunikovat s hardwarem, např. [GamePad API](https://www.chromestatus.com/features/5118776383111168), [Generic Sensor API](https://developers.google.com/web/updates/2017/09/sensors-for-the-web), [Web Bluetooth API](https://www.chromestatus.com/feature/5264933985976320), [WebUSB API](https://www.chromestatus.com/features/5651917954875392) a na cestě jsou [Web NFC API](https://www.chromestatus.com/features/6261030015467520), [Standby API](https://www.chromestatus.com/features/5768542523752448).
+
 <details>
 <summary>Další užitečné zdroje :eyes:</summary>
 
@@ -315,6 +317,7 @@ PWA aplikace v produkci ukazují, že mají význam, viz statistiky [PWA Stats](
 - [Web Push Notifications: Permission UX](https://developers.google.com/web/fundamentals/push-notifications/permission-ux)
 - [Trusted Web activities are a new way to integrate PWA with Android app](https://developers.google.com/web/updates/2017/10/using-twa)
 - [Safari service workers and other PWA good news stories](https://mobiforge.com/news-comment/safari-service-workers-and-other-pwa-good-news-stories)
+- [Awesome PWA](https://github.com/hemanth/awesome-pwa) - Useful resources for creating Progressive Web Apps.
 
 ### Porovnání PWA s nativní aplikací pro Android či iOS
 
@@ -341,6 +344,12 @@ Lower user acquisition cost | YES :+1: | YES :+1: (5) | NO :heavy_minus_sign:
 (5) [Progressive Web Apps vs Native: Which Is Better for Your Business?](https://www.technology.org/2017/07/28/progressive-web-apps-vs-native-which-is-better-for-your-business/)
 
 **Nepotřebujete** Apache Cordova, PhoneGap, Crosswalk, React Native, atd.
+
+### Seznamy PWA aplikací
+
+- [Outweb](https://outweb.io)
+- [PWA Directory](https://pwa-directory.appspot.com)
+- [pwa.rocks](https://pwa.rocks)
 
 </details>
 
