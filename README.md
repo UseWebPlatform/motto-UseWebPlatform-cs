@@ -316,7 +316,7 @@ Webová platforma již nyní má několik rozhraní, které umožňují komuniko
 - [Trusted Web activities are a new way to integrate PWA with Android app](https://developers.google.com/web/updates/2017/10/using-twa)
 - [Awesome PWA](https://github.com/hemanth/awesome-pwa) - Useful resources for creating Progressive Web Apps.
 
-### Podpora PWA ze strany prohlížečů a OS
+### Podpora PWA ze strany prohlížečů a operačních systémů OS
 
 - [Chrome / Chromium: The New and Improved Add to Home screen](https://developers.google.com/web/updates/2017/02/improved-add-to-home-screen)
 - [Add Progressive Web Apps to your Home screen in Firefox for Android](https://hacks.mozilla.org/2017/10/progressive-web-apps-firefox-android/)
