@@ -288,7 +288,7 @@ Například CSS frameworky (Bootstrap, Foundation) jsou velký problém :shit: n
 
 ## 8. Progresivní webové aplikace PWA
 
-Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou :sparkles: [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) :sparkles: za pomoci custom elementů s Polymer knihovnou, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) :sparkles: **best-performing apps** :sparkles:.
+Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou :sparkles: [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) :sparkles: za pomoci custom elementů s lehkou knihovnou Polymer, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist) :sparkles: **best-performing apps** :sparkles:.
 
 Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
