@@ -288,15 +288,19 @@ Například CSS frameworky (Bootstrap, Foundation) jsou velký problém :shit: n
 
 ## 8. Progresivní webové aplikace PWA
 
-Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou :sparkles: [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) :sparkles: za pomoci custom elementů s lehkou knihovnou Polymer, PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist), ze kterého pochopíte co obnáší tato nová cesta pro webové aplikace :sparkles: **best-performing apps** :sparkles:.
+Rychlé modulární [progresivní webové aplikace](https://developers.google.com/web/progressive-web-apps/) vytvoříte s architekturou :sparkles: [App Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) :sparkles: za pomoci web komponent s lehkou knihovnou (např. Polymer, SkateJS, Slim.js), PRPL vzoru a checklistu [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist), ze kterého pochopíte co obnáší tato nová cesta pro webové aplikace. :sparkles: **best-performing apps** :sparkles:
 
-Kód těchto PWA aplikací je díky projektu Polymer a hotovým custom elementům čitelný a udržitelný, viz například kód [demo PWA shopu](https://github.com/Polymer/shop), [demo PWA news](https://github.com/Polymer/news) a PWA aplikace [Polymer Summit 2017](https://github.com/Polymer/summit-2017). :+1:
-
-Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
+Progresivní webové aplikace se chovají "stejně" jako nativní aplikace na platformě Android. Na platformách iOS a Windows není zatím plná podpora. Na platformách [Chrome OS](https://www.google.cz/search?q=Chrome+OS) ([Chromebook](https://www.google.cz/search?q=Chromebook), [Chromebox](https://www.google.cz/search?q=Chromebox), [Chromebase](https://www.google.cz/search?q=Chromebase)) a [Chromium OS](https://www.chromium.org/chromium-os) ([CloudReady](https://www.neverware.com)) beží nativně. Jejich progresivní přístup jim umožňuje běžet kdekoliv díky mnoha webovým prohlížečům. :tada:
 
 PWA aplikace v produkci ukazují, že mají význam, viz statistiky [PWA Stats](https://www.pwastats.com). :+1:
 
 Webová platforma již nyní má několik rozhraní, které umožňují komunikovat s hardwarem, např. [GamePad API](https://www.chromestatus.com/features/5118776383111168), [Generic Sensor API](https://developers.google.com/web/updates/2017/09/sensors-for-the-web), [Web Bluetooth API](https://www.chromestatus.com/feature/5264933985976320), [WebUSB API](https://www.chromestatus.com/features/5651917954875392) a na cestě jsou [Web NFC API](https://www.chromestatus.com/features/6261030015467520), [Standby API](https://www.chromestatus.com/features/5768542523752448).
+
+### Projekt Polymer
+
+Kód PWA aplikací je díky projektu Polymer a hotovým web komponentám čitelný a udržitelný, viz například kód [demo PWA shopu](https://github.com/Polymer/shop), [demo PWA news](https://github.com/Polymer/news) a PWA aplikace [Polymer Summit 2017](https://github.com/Polymer/summit-2017). :+1:
+
+Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
 <details>
 <summary>Další užitečné zdroje :eyes:</summary>
