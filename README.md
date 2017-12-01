@@ -115,7 +115,9 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 ### SEO
 
-[SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí :sparkles: [Headless Chrome](https://www.youtube.com/watch?v=ydThUDlBDfc&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=21) :sparkles:.
+[SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) webových stránek a aplikací řešte pomocí :sparkles: [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) :sparkles:.
+
+Projekt Polymer vyvíjí [PRPL server](https://github.com/Polymer/prpl-server-node), který umí search bótům podstrčit statickou stránku (bez JavaScriptu) vygenerovanou pomocí Headless Chrome.
 
 <details>
 <summary>Další užitečné zdroje</summary>
@@ -152,6 +154,12 @@ Máte-li málo času nebo nemáte prostředky, tak zkuste najít potřebné API 
 
 - [Mashape’s API Marketplace is now part of RapidAPI](https://medium.com/the-era-of-apis/mashapes-api-marketplace-is-now-part-of-rapidapi-53701442f5e4)
 - [20 Tutorials on How to Create Your Own API](https://medium.com/the-era-of-apis/20-tutorials-on-how-to-create-your-own-api-sorted-by-programming-language-9ad2fa5fc429)
+
+### SEO
+
+- [Solving SEO with Headless Chrome (Polymer Summit 2017)](https://www.youtube.com/watch?v=ydThUDlBDfc&index=21&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi)
+- [Puppeteer Playground](https://try-puppeteer.appspot.com)
+- [Rendertron - headless rendering service](https://render-tron.appspot.com)
 
 </details>
 
