@@ -1,4 +1,4 @@
-# #UseWebPlatform <sup><sub>Czech <a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.2.0...v1.3.0#files_bucket">v1.3.0</a> - 2017-11-28</sub></sup>
+# #UseWebPlatform <sup><sub>Czech <a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.3.0...v1.4.0#files_bucket">v1.4.0</a> - 2017-12-04</sub></sup>
 
 Používejte API [webové platformy](https://www.w3.org/standards/), vzory, polyfilly a lehké knihovny pro znovu použitelný, výkonný a udržitelný kód.
 
@@ -37,13 +37,14 @@ Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný 
 ### Polyfilly
 
 - [Web Components Polyfills](https://www.webcomponents.org/polyfills)
+- [Polymer 3.0 - No Polyfills Needed!](https://youtu.be/JH6jEcLxJEI?t=12m45s) :tada:
 - [Polyfill.io](https://polyfill.io) - Upgrade the web. Automatically.
 
 </details>
 
 ## 2. Vyhněte se front-endovým frameworkům
 
-Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com) (porovnejte časy pro interaktivní zobrazení).
+Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com), zde porovnejte časy pro interaktivní zobrazení.
 
 Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz pěkný článek [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e).
 
@@ -266,7 +267,9 @@ Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.c
 
 Custom elementy se Shadow DOM z větší části řeší problematiku nepoužívaného (unused) CSS a JS, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
 
-Například CSS frameworky (Bootstrap, Foundation) jsou velký problém :shit: na webu. Generují velké množství unused CSS kódu na dané stránce. To je anti-pattern pro mobilní PWA aplikace.
+CSS frameworky (Bootstrap, Foundation) jsou velký problém na webu. Obsahují velké množství nepoužívaného CSS kódu na dané stránce. Nepoužívejte CSS frameworky, tím se vyhnete stahování zbytečných kilobajtů a umožníte prohlížeči začít dříve renderovat stránku.
+
+Na cestě je nová generace Polymer elementů, které se zaměřují na vylepšení výkonu, menší API a lepší rozšiřitelnost pomocí dědičnosti ES6 tříd, viz pěkné video [Evolving the Next Generation of Polymer Elements (Polymer Summit 2017)](https://www.youtube.com/watch?v=rvpJ5O0W_6A&list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi&index=6) a článek [The future of elements](https://www.polymer-project.org/blog/2017-11-27-future-of-elements.html).
 
 <details>
 <summary>Další užitečné zdroje</summary>
