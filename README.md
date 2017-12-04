@@ -43,7 +43,7 @@ Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný 
 
 ## 2. Vyhněte se front-endovým frameworkům
 
-Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com).
+Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com) (porovnejte "interactive" časy).
 
 Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz pěkný článek [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e).
 
@@ -63,7 +63,7 @@ Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz p
 
 :sparkles: [PRPL Pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) :sparkles: je vzor pro strukturování a zobrazování progresivních webových aplikací (PWA), s důrazem na jejich výkon a spouštění.
 
-Jednotlivé custom elementy se stahují při prvním dotazu na server a to najednou (jen jednou) na základě dané trasy (URL), kde jsou potřeba pro render na straně klienta.
+Jednotlivé webové komponenty (JS moduly) se stahují binárně najednou (jen jednou) při prvním dotazu na server (HTTP/2) na základě dané trasy (URL), kde jsou potřeba pro render na straně klienta.
 
 ### PRPL-50
 
@@ -107,7 +107,7 @@ Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [hori
 
 Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase bude připraven na GDPR, viz [FAQ](https://firebase.google.com/support/faq/#privacy).
 
-Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na jiná řešení ze seznamu [Awesome Serverless](https://github.com/search?utf8=%E2%9C%93&q=Awesome+Serverless).
+Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na jiná řešení ze seznamů [Awesome Serverless](https://github.com/search?utf8=%E2%9C%93&q=Awesome+Serverless).
 
 Jestli potřebujete CMS pro váš front-end, tak si vyberte ze seznamu [HeadlessCMS](https://headlesscms.org).
 
@@ -189,7 +189,7 @@ Používejte W3C [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/
 
 ### WebAssembly
 
-Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly).
+Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly), které nahrazuje [Chrome Native Client](https://developer.chrome.com/native-client).
 
 <details>
 <summary>Další užitečné zdroje</summary>
