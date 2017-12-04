@@ -265,7 +265,7 @@ Při vytváření custom elementů dodržujte checklist [The Gold Standard Check
 
 Dodržujte W3C [pravidla přístupného webu](http://www.pravidla-pristupnosti.cz), se kterými pomáhají již vytvořené Polymer komponenty.
 
-Custom elementy se Shadow DOM z větší části řeší problematiku nepoužívaného (unused) CSS a JS, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
+Custom elementy se Shadow DOM řeší z větší části problematiku nepoužívaného (unused) CSS a JS kódu, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
 
 CSS frameworky (Bootstrap, Foundation) jsou velký problém na webu. Obsahují velké množství nepoužívaného CSS kódu na dané stránce. Nepoužívejte CSS frameworky, tím se vyhnete stahování zbytečných kilobajtů a umožníte prohlížeči začít dříve renderovat stránku.
 
