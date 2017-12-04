@@ -6,9 +6,9 @@ Deset pravidel:
 
 - [1. Stavte na Ecma a W3C standardech](#1-stavte-na-ecma-a-w3c-standardech)
 - [2. Vyhněte se front-endovým frameworkům](#2-vyhněte-se-front-endovým-frameworkům)
-- [3. PRPL vzor](#3-prpl-vzor)
-- [4. Negenerujte HTML na straně serveru](#4-negenerujte-html-na-straně-serveru)
-- [5. JavaScript, CSS Properties, HTML Templates, Web Workers, WebAssembly](#5-javascript-css-properties-html-templates-web-workers-webassembly)
+- [3. Negenerujte HTML na straně serveru](#3-negenerujte-html-na-straně-serveru)
+- [4. JavaScript, CSS Properties, HTML Templates, Web Workers, WebAssembly](#4-javascript-css-properties-html-templates-web-workers-webassembly)
+- [5. PRPL vzor](#5-prpl-vzor)
 - [6. Inkrementální aktualizace a sdílené závislosti](#6-inkrementální-aktualizace-a-sdílené-závislosti)
 - [7. Custom elementy a pravidla přístupného webu](#7-custom-elementy-a-pravidla-přístupného-webu)
 - [8. Progresivní webové aplikace PWA](#8-progresivní-webové-aplikace-pwa)
@@ -60,39 +60,7 @@ Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz p
 
 </details>
 
-## 3. PRPL vzor
-
-:sparkles: [PRPL Pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) :sparkles: je vzor pro strukturování a zobrazování progresivních webových aplikací (PWA), s důrazem na jejich výkon a spouštění.
-
-Jednotlivé webové komponenty (JS moduly) se stahují binárně najednou (jen jednou) při prvním dotazu na server (HTTP/2) na základě dané trasy (URL), kde jsou potřeba pro render na straně klienta.
-
-### PRPL-50
-
-[Měřte čas potřebný pro interaktivní zobrazení](https://youtu.be/0A-2BhEZiM4?t=9m20s) (Time to Interactive) webové stránky nebo aplikace. Tento čas je závislý na množství přenesených dat. Na 3G mobilních sítích je omezení přibližně **50 KB** per trasu :exclamation:
-
-Lehká [knihovna Polymer v2.0](https://www.polymer-project.org/2.0/docs/devguide/feature-overview) má přibližně 12 KB, takže zbývá asi 38 KB pro vaše data. :tada:
-
-<details>
-<summary>Další zajímavé odkazy</summary>
-
-### PRPL servery
-
-- [prpl-server-node](https://github.com/Polymer/prpl-server-node)
-- [prpl-server-go](https://github.com/CaptainCodeman/prpl-server-go)
-
-#### Funkce PRPL serveru
-
-- [Differential Serving](https://github.com/Polymer/prpl-server-node#differential-serving)
-- [HTTP/2 Server Push](https://github.com/Polymer/prpl-server-node#http2-server-push)
-- [Rendering for Bots (SEO, Open Graph)](https://github.com/Polymer/prpl-server-node#rendering-for-bots)
-
-### Limit 50 KB
-
-- [Building m.uber: Engineering a High-Performance Web App for the Global Market](https://eng.uber.com/m-uber/)
-
-</details>
-
-## 4. Negenerujte HTML na straně serveru
+## 3. Negenerujte HTML na straně serveru
 
 ### SSR
 
@@ -100,7 +68,7 @@ Není třeba SSR (server-side rendering) pro generování HTML kódu na straně 
 
 ### CSR
 
-Kombinace CSR (client-side rendering) + PRPL vzor + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Pro tyto API je vhodné použít např. Node.js, Go lang nebo Python. Příkladem je :sparkles: [JAMstack](https://jamstack.org) :sparkles:.
+Kombinace CSR (client-side rendering) + [PRPL vzor](#5-prpl-vzor) + [W3C Service Worker Cache](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) + [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) řeší rychlé načtení webových stránek a aplikací (front-endu). Service Worker Cache jim umožňuje běžet offline, bez připojení k internetu. Komunikace se serverem (back-endem) probíhá přes [JSON API](http://jsonapi.org), [GraphQL](http://graphql.org) nebo [REST API](https://en.wikipedia.org/wiki/Representational_State_Transfer). Pro tyto API je vhodné použít např. Node.js, Go lang nebo Python. Příkladem je :sparkles: [JAMstack](https://jamstack.org) :sparkles:.
 
 ### Back-end
 
@@ -164,7 +132,7 @@ Projekt Polymer vyvíjí [PRPL server](https://github.com/Polymer/prpl-server-no
 
 </details>
 
-## 5. JavaScript, CSS Properties, HTML Templates, Web Workers, WebAssembly
+## 4. JavaScript, CSS Properties, HTML Templates, Web Workers, WebAssembly
 
 ### JavaScript
 
@@ -243,6 +211,38 @@ Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://
 ### Web Workers
 
 - [WebWorkers: Code Session - Supercharged](https://www.youtube.com/watch?v=X57mh8tKkgE)
+
+</details>
+
+## 5. PRPL vzor
+
+:sparkles: [PRPL Pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) :sparkles: je vzor pro strukturování a zobrazování progresivních webových aplikací (PWA), s důrazem na jejich výkon a spouštění.
+
+Jednotlivé webové komponenty (JS moduly) se stahují binárně najednou (jen jednou) při prvním dotazu na server (HTTP/2) na základě dané trasy (URL), kde jsou potřeba pro render na straně klienta.
+
+### PRPL-50
+
+[Měřte čas potřebný pro interaktivní zobrazení](https://youtu.be/0A-2BhEZiM4?t=9m20s) (Time to Interactive) webové stránky nebo aplikace. Tento čas je závislý na množství přenesených dat. Na 3G mobilních sítích je omezení přibližně **50 KB** per trasu :exclamation:
+
+Lehká [knihovna Polymer v2.0](https://www.polymer-project.org/2.0/docs/devguide/feature-overview) má přibližně 12 KB, takže zbývá asi 38 KB pro vaše data. :tada:
+
+<details>
+<summary>Další zajímavé odkazy</summary>
+
+### PRPL servery
+
+- [prpl-server-node](https://github.com/Polymer/prpl-server-node)
+- [prpl-server-go](https://github.com/CaptainCodeman/prpl-server-go)
+
+#### Funkce PRPL serveru
+
+- [Differential Serving](https://github.com/Polymer/prpl-server-node#differential-serving)
+- [HTTP/2 Server Push](https://github.com/Polymer/prpl-server-node#http2-server-push)
+- [Rendering for Bots (SEO, Open Graph)](https://github.com/Polymer/prpl-server-node#rendering-for-bots)
+
+### Limit 50 KB
+
+- [Building m.uber: Engineering a High-Performance Web App for the Global Market](https://eng.uber.com/m-uber/)
 
 </details>
 
