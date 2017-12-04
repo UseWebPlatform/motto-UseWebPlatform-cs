@@ -43,7 +43,7 @@ Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný 
 
 ## 2. Vyhněte se front-endovým frameworkům
 
-Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com) (porovnejte "interactive" časy).
+Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com) (porovnejte časy pro interaktivní zobrazení).
 
 Náklady na zpracování JavaScript kódu jsou vetší než u jiných dat, viz pěkný článek [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e).
 
