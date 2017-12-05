@@ -46,7 +46,7 @@ Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný 
 
 Těžké a složité frameworky pro front-end (Angular, Bootstrap, Ember, jQuery, React, Vue, atd.) zpomalují načtení (žerou data, výkon i baterii) a omezují vývoj, udržitelnost a snadné rozšiřování webových stránek a aplikací. Srovnání frameworků pomocí progresivních webových aplikací (PWA) je na stránce [HNPWA](https://hnpwa.com), zde porovnejte časy pro interaktivní zobrazení.
 
-CSS frameworky (Bootstrap, Foundation) obsahují velké množství nepoužívaného (unused) CSS kódu na dané stránce. Nepoužívejte CSS frameworky, tím se vyhnete stahování zbytečných kilobajtů a umožníte prohlížeči začít dříve renderovat stránku.
+CSS frameworky (Bootstrap, Foundation, atd.) obsahují velké množství nepoužívaného (unused) CSS kódu na dané stránce. Nepoužívejte CSS frameworky, tím se vyhnete stahování zbytečných kilobajtů a umožníte prohlížeči začít dříve renderovat stránku.
 
 Custom elementy se Shadow DOM řeší z větší části problematiku nepoužívaného CSS a JS kódu, která se nechá měřit pomocí [DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage). Členit CSS kód pomocí Shadow DOM je výkonější, než pomocí JS, viz pěkný článek [Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/).
 
