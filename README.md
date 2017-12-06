@@ -338,6 +338,7 @@ Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://githu
 - [How to Save PWA to iOS Homescreen](https://vimeo.com/236430523)
 - [Safari service workers and other PWA good news stories](https://mobiforge.com/news-comment/safari-service-workers-and-other-pwa-good-news-stories)
 - [Progressive Web Apps (PWA) and Windows 10](https://forum.kirupa.com/t/progressive-web-apps-pwa-and-windows-10/637192)
+- [Google wants Progressive Web Apps to replace Chrome apps](http://www.androidpolice.com/2017/12/05/google-wants-progressive-web-apps-replace-chrome-apps/)
 
 ### Porovnání PWA s nativní aplikací pro Android či iOS
 
