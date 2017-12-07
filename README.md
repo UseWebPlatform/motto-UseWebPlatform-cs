@@ -70,7 +70,7 @@ Náklady na zpracování JS kódu jsou vetší než u jiných dat, viz pěkný �
 
 Není třeba SSR (server-side rendering) pro generování HTML kódu na straně serveru, z něj přes API získávejte jen JSON data, tím šetříte drahá data na pomalých sítích, výkon i baterii na straně klienta. Vyhněte se pomalým a složitým back-endovým frameworkům generující HTML, např. ASP.NET, Django, Laravel, React, Tomcat, Vue, atd.
 
-Webové stránky nebo aplikace bez SSR mohou při opětovném zobrazení již běžet z lokální Service Worker Cache paměti, tím se pak chovají stejně jako nativní aplikace pro Android či iOS.
+Webové stránky nebo aplikace bez SSR mohou při opětovném zobrazení již běžet z lokální Service Worker Cache paměti, tím se pak chovají stejně jako nativní aplikace pro Android, iOS, macOS či Windows.
 
 ### CSR
 
