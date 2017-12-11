@@ -291,6 +291,7 @@ Na cestě je nová generace Polymer elementů, které se zaměřují na vylepše
 - [Accessible Components: Screen readers -- Polycasts #50](https://www.youtube.com/watch?v=Lktz1KXbTOU&index=13&list=PLNYkxOF6rcIDdS7HWIC_BYRunV6MHs5xo)
 - [Accessible Components: Keyboard access -- Polycasts #49](https://www.youtube.com/watch?v=REVxMvdBYMw&index=14&list=PLNYkxOF6rcIDdS7HWIC_BYRunV6MHs5xo)
 - [A11y with Polymer (The Polymer Summit 2015)](https://www.youtube.com/watch?v=o6yLWihykVA&index=14&list=PLNYkxOF6rcICdISJclfQhj2S8QZGjXV8J)
+- [The future of accessibility for custom elements](https://medium.com/dev-channel/the-future-of-accessibility-for-custom-elements-291cfb3ffabe) - 2017-10
 
 ### Unused CSS
 
