@@ -329,6 +329,7 @@ Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://githu
 - [Kickstarting Your Journey to Progressive Web Apps (Chrome Dev Summit 2017)](https://www.youtube.com/watch?v=goafiwzhKMI)
 - [Polymer 2.0 — Building Progressive Web Apps with Enhanced Web Platform Features](https://medium.com/platform-engineer/polymer-2-0-building-progressive-web-apps-with-enhanced-web-platform-features-933251824f13)
 - [PWAs with Polymer: a checklist](https://meowni.ca/posts/polymer-pwa-checklist/)
+- [Creating UX that “Just Feels Right” with Progressive Web Apps (Google I/O '17)](https://www.youtube.com/watch?v=mmq-KVeO-uU)
 - [Web Push Notifications: Permission UX](https://developers.google.com/web/fundamentals/push-notifications/permission-ux)
 - [Integrating with Browsers and OS - Android Trusted Web Activity (Chrome Dev Summit 2017)](https://www.youtube.com/watch?v=_sLa0qhuqcA)
 - [Trusted Web activities are a new way to integrate PWA with Android app](https://developers.google.com/web/updates/2017/10/using-twa)
