@@ -199,6 +199,7 @@ Výkonnostní kód pište v jazyce C nebo C++ pomocí W3C [WebAssembly](https://
 - [Learn How To Debug JavaScript with Chrome DevTools](https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db)
 - [ES8 was Released and here are its Main New Features](https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66)
 - [Awesome Mobile Web Specialist](https://github.com/PolymerTemple/awesome-mobile-web-specialist)
+- [Find up to date snippets for common JavaScript use cases](https://codetogo.io)
 
 #### Kurzy jazyka JavaScript
 
