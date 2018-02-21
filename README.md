@@ -323,6 +323,7 @@ Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://githu
 
 ### Úvod do PWA
 
+- [Progressive Web Apps - PWA Roadshow](https://www.youtube.com/watch?v=z2JgN6Ae-Bo)
 - [Introduction to Progressive Web App Architectures](https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures-slides)
 - [Intro to Progressive Web Apps - Free course](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
 - [Support native integration](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#support_native_integration)
