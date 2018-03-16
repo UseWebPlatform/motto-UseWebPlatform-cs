@@ -318,6 +318,11 @@ Kód PWA aplikací je díky projektu Polymer a hotovým web komponentám čiteln
 
 Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#mediator-pattern) nebo [Global Mediator Pattern](https://github.com/StartPolymer/awesome-polymer#global-mediator-pattern), ten za pomoci knihovny [UniFlow](https://github.com/StartPolymer/awesome-polymer#uniflow) nebo [Redux](https://github.com/StartPolymer/awesome-polymer#redux).
 
+### Výhody PWA oproti nativní aplikaci
+
+- Reload stránky pomocí tahem prstu po stránce.
+- Uložení odkazu na danou stránku na plochu (home screen).
+
 <details>
 <summary>Další užitečné zdroje :eyes:</summary>
 
