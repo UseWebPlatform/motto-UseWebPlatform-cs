@@ -6,7 +6,7 @@ Deset pravidel:
 
 - [1. Stavte na Ecma a W3C standardech](#1-stavte-na-ecma-a-w3c-standardech)
 - [2. Vyhněte se front-endovým frameworkům](#2-vyhněte-se-front-endovým-frameworkům)
-- [3. Negenerujte HTML na straně serveru](#3-negenerujte-html-na-straně-serveru)
+- [3. Negenerujte HTML na straně back-endu](#3-negenerujte-html-na-straně-back-endu)
 - [4. JavaScript, CSS Properties, HTML Templates, Web Workers, WebAssembly](#4-javascript-css-properties-html-templates-web-workers-webassembly)
 - [5. PRPL vzor](#5-prpl-vzor)
 - [6. Inkrementální aktualizace a sdílené závislosti](#6-inkrementální-aktualizace-a-sdílené-závislosti)
@@ -64,7 +64,7 @@ Náklady na zpracování JS kódu jsou vetší než u jiných dat, viz pěkný �
 
 </details>
 
-## 3. Negenerujte HTML na straně serveru
+## 3. Negenerujte HTML na straně back-endu
 
 ### SSR
 
