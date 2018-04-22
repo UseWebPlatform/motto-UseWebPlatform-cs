@@ -19,7 +19,7 @@ Deset pravidel:
 
 Tvořte lepší web postavený na nových W3C standardech [Custom Elements v1](https://developers.google.com/web/fundamentals/web-components/customelements) a [Shadow DOM v1](https://developers.google.com/web/fundamentals/web-components/shadowdom) umožňující rozšířit W3C [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) jako jediný framework. Komplexní webové aplikace tvořte modulárně z mnoha zapouzdřených custom elementů s vlastním stromem pomocí Shadow DOM. Dodržujte metodu [progressive enhancement](https://www.zdrojak.cz/clanky/graceful-degradation-vs-progressive-enhancement/) za pomoci W3C [polyfillů](https://www.w3.org/2001/tag/doc/polyfills/).
 
-Tyto a níže uvedené Ecma a W3C standardy umožňují psát dlouhodobě udržitelný kód **#WriteMaintainableCode** a čitelný kód pro většinu webových vývojářů **#WriteReadableCode**.
+Tyto a níže uvedené Ecma a W3C standardy umožňují psát dlouhodobě udržitelný kód :sparkles: **#WriteMaintainableCode** :sparkles: a čitelný kód pro většinu webových vývojářů :sparkles: **#WriteReadableCode** :sparkles:.
 
 <details>
 <summary>Další užitečné zdroje</summary>
@@ -388,7 +388,7 @@ Lower user acquisition cost | YES :+1: | YES :+1: (5) | NO :heavy_minus_sign:
 
 ## 9. Neopakujte se
 
-Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentation) a [testy pomocí Web Component Tester](https://www.polymer-project.org/2.0/docs/tools/tests) pro každý znovu použitelný custom element, který žije ve vlastním git repozitáři s landing a demo stránkou :sparkles: **reusable code** :sparkles:. To vám umožňuje tvořit stabilní webové komponenty a neopakovat se (**DRY**: Don't repeat yourself).
+Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentation) a [testy pomocí Web Component Tester](https://www.polymer-project.org/2.0/docs/tools/tests) pro každý znovu použitelný custom element, který žije ve vlastním git repozitáři s landing a demo stránkou :sparkles: **#WriteReusableCode** :sparkles:. To vám umožňuje tvořit stabilní webové komponenty a neopakovat se (**DRY**: Don't repeat yourself).
 
 ## 10. Modulární web pro všechny
 
