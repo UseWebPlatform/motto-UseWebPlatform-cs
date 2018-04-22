@@ -1,6 +1,6 @@
 # #UseWebPlatform <sup><sub>Czech <a href="https://github.com/UseWebPlatform/motto-UseWebPlatform-cs/compare/v1.3.0...v1.4.0#files_bucket">v1.4.0</a> - 2017-12-04</sub></sup>
 
-Používejte API [webové platformy](https://www.w3.org/standards/), vzory, polyfilly a lehké knihovny pro znovu použitelný, výkonný a udržitelný kód.
+Používejte API [webové platformy](https://www.w3.org/standards/), vzory, polyfilly a lehké knihovny pro znovu použitelný, výkonný, udržitelný a čitelný kód.
 
 Deset pravidel:
 
@@ -19,7 +19,7 @@ Deset pravidel:
 
 Tvořte lepší web postavený na nových W3C standardech [Custom Elements v1](https://developers.google.com/web/fundamentals/web-components/customelements) a [Shadow DOM v1](https://developers.google.com/web/fundamentals/web-components/shadowdom) umožňující rozšířit W3C [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) jako jediný framework. Komplexní webové aplikace tvořte modulárně z mnoha zapouzdřených custom elementů s vlastním stromem pomocí Shadow DOM. Dodržujte metodu [progressive enhancement](https://www.zdrojak.cz/clanky/graceful-degradation-vs-progressive-enhancement/) za pomoci W3C [polyfillů](https://www.w3.org/2001/tag/doc/polyfills/).
 
-Tyto a níže uvedené Ecma a W3C standardy vám umožňují psát udržitelný kód :sparkles: **maintainable code** :sparkles: a zajišťují lepší dostupnost webových vývojářů. :tada:
+Tyto a níže uvedené Ecma a W3C standardy umožňují psát dlouhodobě udržitelný kód **#WriteMaintainableCode** a čitelný kód pro většinu webových vývojářů **#WriteReadableCode**.
 
 <details>
 <summary>Další užitečné zdroje</summary>
@@ -392,7 +392,7 @@ Píšte [dokumentaci](https://www.polymer-project.org/2.0/docs/tools/documentati
 
 ## 10. Modulární web pro všechny
 
-Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org), kde je již [**přes 1300 elementů**](https://www.webcomponents.org/elements). :tada:
+Veřejné znovu použitelné custom elementy pro ostatní publikujte na platformě GitHub. Tyto elementy pak ukládejte do katalogu [webcomponents.org](https://www.webcomponents.org), kde je již [**přes 1500 elementů**](https://www.webcomponents.org/elements). :tada:
 
 Webové komponenty jako W3C standard vylepšují a nahrazují Angular Components, Vue Components a jiné, viz projekt [Custom Elements Everywhere](https://custom-elements-everywhere.com).
 
