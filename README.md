@@ -80,7 +80,7 @@ Kombinace CSR (client-side rendering) + [PRPL vzor](#5-prpl-vzor) + [W3C Service
 
 Nechte správu o složitý back-end cloud službám, nemusíte pak řešit [horizontální škálování](https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling), [SLA](https://en.wikipedia.org/wiki/Service-level_agreement) a [GDPR](https://www.gdpr.cz) jako "data processor".
 
-Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase bude připraven na GDPR, viz [FAQ](https://firebase.google.com/support/faq/#privacy).
+Například cloud Firebase je dobře navržen pro multi-platformní vývoj aplikací. Jeho služba Firebase Functions krásně řeší modularitu back-endu, viz příklady v git repozitáři [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples). Firebase je připraven na [GDPR](https://firebase.googleblog.com/2018/05/a-few-updates-on-privacy-and-security.html).
 
 Jestli vás baví back-end nebo nechcete cloud, tak se podívejte na jiná řešení ze seznamů [Awesome Serverless](https://github.com/search?utf8=%E2%9C%93&q=Awesome+Serverless).
 
