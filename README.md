@@ -321,7 +321,7 @@ Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://githu
 ### Výhody PWA oproti nativní aplikaci
 
 - Reload stránky pomocí tahem prstu po stránce.
-- Uložení odkazu na danou stránku na plochu (home screen).
+- TBD
 
 <details>
 <summary>Další užitečné zdroje :eyes:</summary>
@@ -342,6 +342,7 @@ Stav aplikace můžete spravovat pomocí vzorů [Mediator Pattern](https://githu
 - [Integrating with Browsers and OS - Android Trusted Web Activity (Chrome Dev Summit 2017)](https://www.youtube.com/watch?v=_sLa0qhuqcA)
 - [Trusted Web activities are a new way to integrate PWA with Android app](https://developers.google.com/web/updates/2017/10/using-twa)
 - [Awesome PWA](https://github.com/hemanth/awesome-pwa) - Useful resources for creating Progressive Web Apps.
+- [Progressive Tooling](https://progressivetooling.com)
 
 ### Podpora PWA ze strany prohlížečů a operačních systémů OS
 
